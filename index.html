@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Rodes AC Test</title>
-  <style>
+ <style>
   * { box-sizing: border-box; }
   body {
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    background: #ffffff;
+    background: #f3f4f6;
     color: #111827;
   }
   .container {
@@ -40,12 +40,18 @@
   .ac-form-wrap ._form-content {
     text-align: center !important;
   }
+  .ac-form-wrap ._field_email label {
+    display: none !important;
+  }
   .ac-form-wrap ._field_email input[type="text"] {
     width: 280px !important;
     height: 54px !important;
     padding: 0 16px !important;
     font-size: 16px !important;
     box-sizing: border-box !important;
+  }
+  .ac-form-wrap ._field_email input[type="text"]::placeholder {
+    color: #9ca3af !important;
   }
   .ac-form-wrap ._submit {
     height: 54px !important;
